@@ -6,4 +6,4 @@ class StudentAdmin(admin.ModelAdmin):
     list_display = ["name", "age", "email", "score", "created_at", "updated_at"]
     list_filter = ["created_at", "updated_at"]
     search_fields = ["name", "email"]
-    ordering = ["-created_at"]
+    ordering = ["name"]

@@ -16,4 +16,4 @@ class Student(models.Model):
         db_table = "student"
         verbose_name = "Student"
         verbose_name_plural = "Students"
-        ordering = ["-created_at"]
+        ordering = ["name"]
